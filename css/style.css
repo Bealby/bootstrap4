@@ -1,5 +1,5 @@
 body{
-    font-family: 'Charm', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .alert-container{
@@ -9,11 +9,16 @@ body{
 .callout-container{
     height:100vh;
 
-  background: url(images/bg.jpg) no-repeat center center fixed; 
+  background: url("/images/whiskey.jpg") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;    
+
+display: flex;
+align-items: center;
+justify-content: center;
+
 }
 
 .quotes-container{
@@ -23,3 +28,27 @@ body{
 .features-container{
     
 }
+
+/*jumbotron*/
+
+.jumbotron{
+    background-color:transparent;
+}
+
+.jumbotron-header{
+    color: white;
+    font-weight:bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #8e7777;
+}
+
+.jumbotron small{
+    font-size:60%;
+    font-style:italic;
+    color:#d0d0d0;
+}
+
